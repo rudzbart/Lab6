@@ -1,0 +1,21 @@
+@media all and (min-width: 480px) {
+.Login {
+    padding: 60px 0;
+}
+
+.Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+.incorrectpass {
+  margin: 0 auto;
+  text-align: center;
+  color: red;
+  display:  none;
+}
+
+h1{
+  font-size: 30px;
+}
