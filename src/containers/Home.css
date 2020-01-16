@@ -11,3 +11,104 @@
 .Home .lander p {
   color: #999;
 }
+
+.navbar-wrapper {
+  top: 0px;
+}
+
+.slide-container {
+  width: 70%;
+  margin: auto; }
+
+.ul-wrapper{
+  float:right;
+  margin-right: 5px;
+}
+
+h3 {
+  text-align: center; }
+
+li{
+  border-radius: 3px;
+    transition-duration: 0.4s;
+  }
+
+li:hover{
+    background-color: pink;
+  }
+
+  .each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+  transition-duration: 0.4s;
+}
+
+.each-slide > div:hover {
+  transform: scale(1.2);
+}
+
+.each-slide span {
+  padding: 10px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.button-wrapper{
+  float: right;
+}
+
+#logout_button{
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  background-color:pink;
+  color:black;
+  border-radius: 20px;
+  border-color: pink;
+  transition-duration: 0.4s;
+}
+
+#logout_button:hover{
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+a {
+  font-family: sans-serif;
+
+}
+
+.active{
+  font-weight: bold;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+.fa:hover {
+    color:pink;
+}
+
+.fa-facebook {
+  margin-left: 10px;
+}
+
+.fa-github {
+  margin-left: 10px;
+}
+
+.footer {
+  margin-top: 40px;
+  background-color:white;
+}
