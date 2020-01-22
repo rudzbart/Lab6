@@ -19,3 +19,27 @@
 h1{
   font-size: 30px;
 }
+
+.Login{
+  background-color: white;
+  width: 450px;
+  margin: 0 auto;
+  border-radius: 25px;
+  height: 300px;
+}
+
+#login-button{
+  color: black;
+  font-weight: bold;
+  background-color: pink;
+  border-radius: 20px;
+  border-color: pink;
+  transition-duration: 0,4s;
+  border-width: medium;
+}
+
+#login-button:hover{
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
